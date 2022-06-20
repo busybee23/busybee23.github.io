@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(dark-minimalist-09.jpg);
+    color: #FCFFE7;
+}
+
+.sem{
+    font-size: 25px;
+}
+
+.semtype{
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 18%;
+    background-color: #4D4C7D;
+    color: white;
+}
+
+.one-view{
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.container{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 400px;
+    margin-top: 20px;
+}
+
+.form-control{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    color:  cyan;
+    margin-right: 9px;
+}
+
+.form-control{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+input{
+    background: transparent;
+    width: 80%;
+    padding: 12px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    color: white;
+    font-size: 15px;
+    /* background-color: #bde0fe; */
+}
+
+
+input::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+}
