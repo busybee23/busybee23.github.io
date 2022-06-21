@@ -8,9 +8,10 @@ const six = document.getElementById('6th');
 const seven = document.getElementById('7th');
 let result = document.getElementById('result')
 let cgpa = 0;
+const submit =  document.getElementById('submit')
 
-form.addEventListener('submit',function(e){
+submit.addEventListener('click',(e)=>{
     e.preventDefault();
     cgpa = (17.5*first.value + 20.5*second.value + 21.0*third.value + 21.0*four.value + 21.0*five.value + 21.0*six.value + 20.0*seven.value)/142;
-    result.innerHTML = `Your current CGPA is : ${cgpa.toFixed(2)}`
+    result.innerHTML = `CGPA : ${cgpa.toFixed(2)}`
 })

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CGPA CALCULATOR</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/rick.png" type="image/png" />
+  </head>
+  <body>
+    <h1>AKTU CGPA CALCULATOR</h1>
+    <div class="test">
+      <a
+        class="btn-slice"
+        href="https://erp.aktu.ac.in/webpages/oneview/oneview.aspx"
+      >
+        <div class="top"><span>AKTU One View</span></div>
+        <div class="bottom"><span>AKTU One View</span></div>
+      </a>
+    </div>
+
+    <div class="container">
+      <form id="form" class="form">
+        <div class="sem-control">
+          <label class="sem"
+            >Select Semester :
+            <select class="semtype" id="semtype">
+              <option value="seven">7th</option>
+              <!-- <option value="eight">8th</option> -->
+            </select>
+            <p id="result"></p>
+          </label>
+        </div>
+
+        <div class="form-control">
+          <label for="email">1st Sem</label>
+          <input
+            type="number"
+            min="0"
+            max="10"
+            step=".01"
+            id="1st"
+            placeholder="Enter SGPA"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">2nd Sem</label>
+          <input
+            type="number"
+            min="0"
+            max="10"
+            step=".01"
+            id="2nd"
+            placeholder="Enter SGPA"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">3rd Sem</label>
+          <input
+            type="number"
+            min="0"
+            max="10"
+            step=".01"
+            id="3rd"
+            placeholder="Enter SGPA"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">4th Sem</label>
+          <input
+            type="number"
+            min="0"
+            max="10"
+            step=".01"
+            id="4th"
+            placeholder="Enter SGPA"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">5th Sem</label>
+          <input
+            type="number"
+            min="0"
+            max="10"
+            step=".01"
+            id="5th"
+            placeholder="Enter SGPA"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">6th Sem</label>
+          <input
+            type="number"
+            min="0"
+            max="10"
+            step=".01"
+            id="6th"
+            placeholder="Enter SGPA"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">7th Sem</label>
+          <input
+            type="number"
+            min="0"
+            max="10"
+            step=".01"
+            id="7th"
+            placeholder="Enter SGPA"
+          />
+        </div>
+        <div class="submit">
+          <a class="typical" href="">
+            <span id="submit">Submit</span>
+            <div class="liquid"></div>
+          </a>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
