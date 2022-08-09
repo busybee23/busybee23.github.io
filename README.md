@@ -4,3 +4,4 @@
 ### Major updates coming soon :
 
 1. Added CGPA Finder inside project domain 
+2. Time to remap the entire website
